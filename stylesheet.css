@@ -411,15 +411,8 @@ footer {
 	display: inline-block;
 }
 
-.three {
-}
-
 .three > img {
 	margin-top: 75px;
-}
-
-.two {
-	height: 984px;
 }
 
 .two > img {
@@ -688,7 +681,7 @@ h2 {
 	
 }
 
-@media (min-width:450px) and (max-width:1023px){
+@media (max-width:1023px){
 nav li {
     border-right: 1px solid rgba(0,0,0,0.25);
 	color: black;
