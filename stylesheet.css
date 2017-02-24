@@ -728,6 +728,7 @@ nav li {
 	display: inline-block;
 	text-align: center;
 	margin: 20px 7px 60px 2px;
+	clear: both;
 }
 
 }
