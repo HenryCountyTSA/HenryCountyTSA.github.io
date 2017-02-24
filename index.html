@@ -1,9 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<title>My 1st attempt at GitHubbin'</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-widht; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <script src="JavaScript.js"></script> 
+  <title>Augmented Reality | Home</title>
 </head>
-<body>
-<h1>Check me out Suckas!</h1>
+<body onload="myFunction()" style="margin:0;" background="images/bg.png">
+<div id="loading">
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+</div>
+ <div style="display:none;" id="myDiv" id="loading" class="animate-bottom"> 
+  <div class="header">
+    <h1 align="center"> Augmented Reality </h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="nav_link hvr-shutter-out-horizontal"> Home </a></li>
+      <li class="dropdown"><a class="nav_link dropbtn hvr-shutter-out-horizontal"> Design Brief</a>
+        <div class="dropdown-content">
+          <a href="history.html" class="nav_link hvr-sweep-to-right"> History </a>
+          <a href="architecture.html" class="nav_link hvr-sweep-to-right"> Architecture </a>
+          <a href="entertainment.html" class="nav_link hvr-sweep-to-right"> Entertainment </a>
+          <a href="medical.html" class="nav_link hvr-sweep-to-right"> Medical </a>
+          <a href="science.html" class="nav_link hvr-sweep-to-right"> Science </a>
+          <a href="concerns.html" class="nav_link hvr-sweep-to-right"> Concerns </a>
+          <a href="resources.html" class="nav_link hvr-sweep-to-right"> Resources </a>
+        </div>
+      </li>
+      <li><a href="tsa.html" class="nav_link hvr-shutter-out-horizontal"> TSA </a></li>
+      <li class="last"><a href="contact.html" class="nav_link hvr-shutter-out-horizontal"> Contact </a></li>
+    </ul>
+  </nav>
+    <img src= "images/ar_page.jpg" class="home">
+  <div class="box">
+  <div class="i">
+    <h1 class="i_heading left"> The Future of Computing </h1>
+    <p class="i_content right"> Augmented Reality is the interaction of superimposed graphics, audio and other sense enhancements over a real world environment that is displayed in real-time. Its prominence in the computing scene is growing exponentially. Augmented technology is revolutionizing how we see the world.</p>
+  </div>
+  </div>
+  <footer>
+    <hr> <p align="center"> &#169; 2016 Austin Ernst, Timothy Haag, and Jacob Redmon </p>
+  </footer>
+  </div>
 </body>
 </html>
