@@ -24,7 +24,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #f2f2f2;
-	height: 200px;
+	height: 18%;
 	letter-spacing: 2px;
 	overflow: hidden;
 	-webkit-mask-image: -webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
@@ -106,11 +106,26 @@ h1 a:hover {
 }
 
 .home {
-	width: 100%;
-	height: 75%;
+	min-width: 100%;
+	height: auto;
 	position-margin: auto;
+	
 }
 
+.i_box {
+	font-family: 'Raleway', sans-serif;
+	display: block;
+	height: 100%;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	padding: 5px;
+	position: relative;
+}
+
+.i_image {
+	width: 100%;
+}
 
 /* Nav */
 nav {
@@ -324,9 +339,9 @@ footer {
 }
 
 .i {
-	height: 125px;
+	height: 165px;
 	background-color: #F9F9F9;
-	margin-bottom: 5px;
+	margin: auto;
 	border-radius: 15px;
 	box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
 }
@@ -513,7 +528,7 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #f2f2f2;
-	height: 200px;
+	height: 20%;
 	letter-spacing: 2px;
 	overflow: hidden;
 	-webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
@@ -564,7 +579,7 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #f2f2f2;
-	height: 300px;
+	height: 28%;
 	letter-spacing: 2px;
 	overflow: hidden;
 	-webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
