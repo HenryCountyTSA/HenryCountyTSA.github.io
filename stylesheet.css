@@ -729,4 +729,12 @@ nav li {
             animation: fadein 2s;		
 }
 
+.contact {
+	background-color: #E3E3E3;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin: 20px 7px 60px 2px;
+}
+
 }
