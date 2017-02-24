@@ -129,10 +129,8 @@ h1 a:hover {
 
 /* Nav */
 nav {
-	margin-top: -11px;
-	margin-bottom: -16px;
-	margin-left: -47px;
 	letter-spacing: 2px;
+	margin: 0;
 }
 
 nav .nav_link {
@@ -145,6 +143,7 @@ nav .nav_link {
 nav ul { 
     list-style-type: none;
     overflow: hidden;
+	margin: 0;
 }
 
 nav li {
@@ -152,7 +151,8 @@ nav li {
 	color: black;
     float: left;
 	text-align: center;
-    width: 24.94%;
+    width: 23.5%;
+	margin: 0;
 }
 
 nav .last {
@@ -683,3 +683,43 @@ h2 {
 #myDiv {
   display: none;
 }
+
+@media (min-width:1024px) {
+	
+}
+
+@media (min-width:450px) and (max-width:1023px){
+nav li {
+    border-right: 1px solid rgba(0,0,0,0.25);
+	color: black;
+    float: left;
+	text-align: center;
+    width: 23.5%;
+	margin: 0;
+}
+
+.text {
+	display: block;
+	width: 100%;
+	text-indent: 30px;
+	line-height: 1.75em;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 1.185em;
+	text-align: justify;
+}
+
+.img {
+	display: block;
+	width: 100%;
+	clear: both;
+	padding: 5px;
+}
+
+}
+
+@media (min-width:450px) and (max-width:800px){
+	
+}
+	
+	
