@@ -716,10 +716,17 @@ nav li {
 	padding: 5px;
 }
 
+.header h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 50px;
+	font-weight: lighter;
+	margin-bottom: 75px;
+	text-shadow: 1px 1px 8px #000; 
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;		
 }
 
-@media (min-width:450px) and (max-width:800px){
-	
 }
-	
-	
