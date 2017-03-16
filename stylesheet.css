@@ -160,14 +160,14 @@ h1 a:hover {
 
 .box_index {
 	width: 25%;
-	background-color: #808080;
+	background-color: #808080; 
 	height: 9.5%;
 	z-index: 100;
 	position: absolute;
 	top: 50%;
 	left: 64%;
 	opacity: 0.85;
-}
+} 
 
 .box_index p {
 	text-align:center;
@@ -180,9 +180,10 @@ h1 a:hover {
 	font-family: 'Libre Baskerville', serif;
 	color: white;
 	display: block;
-	padding: 22px 22px;
+	padding: 8% 8%;
 	margin-top: -11.5%;
-}
+	position: absolute;
+} 
 
 .index {
 	margin-top: .75%;
@@ -741,74 +742,6 @@ h2 {
   display: none;
 }
 
-@media screen and (min-width:1341px) {
-.box_index_title {
-	width: 60%;
-	height: 10%;
-	z-index: 100;
-	position: absolute;
-	top:29%;
-	left:38%;
-	opacity: 0.85;
-}
-
-.box_index_title h1 {
-	font-family: 'Libre Baskerville', serif;
-	text-align: right;
-	font-size: 50px;
-	height: 30%;
-	color: white;
-	font-weight: bold;
-	line-height: normal;
-	font-weight: 600;
-	text-shadow: 1px 1px 8px #000;
-}
-
-.box_index_title p {
-	color: white;
-	text-align: right;
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;			
-	font-weight: bold;
-	width: 98.7%;
-	font-weight: 600;
-	text-shadow: 1px 1px 8px #000;
-}
-
-
-.box_index {
-	width: 22%;
-	background-color: #808080;
-	height: 9.5%;
-	z-index: 100;
-	position: absolute;
-	top: 51%;
-	left: 66%;
-	opacity: 0.85;
-}
-
-.box_index p {
-	text-align:center;
-	font-size: 36px;
-}
-
-.box_index p a {
-	text-decoration: none;
-	font-family: 'Libre Baskerville', serif;
-	color: white;
-	display: block;
-	padding: 24.5px 24px;
-	margin-top: -12%;
-}
-
-.index {
-	margin-top: .75%;
-	width: 100%;
-	z-index:-10;
-	filter: brightness(65%);
-}
-}
-
 
 @media screen and (max-width: 1340px) and (min-width: 1201px) {
 .box_index_title {
@@ -858,7 +791,7 @@ h2 {
 
 .box_index p {
 	text-align:center;
-	font-size: 40px;
+	font-size: 38px;
 }
 
 .box_index p a {
@@ -866,8 +799,10 @@ h2 {
 	font-family: 'Libre Baskerville', serif;
 	color: white;
 	display: block;
-	padding: 19px 8px;
-	margin-top: -12.5%;
+	height: 41.5%;
+	margin-top: -12%;
+	margin-left:-1%;
+	width: 85%;
 }
 
 .index {
@@ -1046,21 +981,20 @@ nav li {
 	text-shadow: 1px 1px 8px #000;
 }
 
-
 .box_index {
-	width: 26%;
+	width: 25%;
 	background-color: #808080;
-	height: 8%;
+	height: 9.5%;
 	z-index: 100;
 	position: absolute;
-	top: 55%;
-	left: 65%;
+	top: 50%;
+	left: 64%;
 	opacity: 0.85;
 }
 
 .box_index p {
 	text-align:center;
-	font-size: 35px;
+	font-size: 33px;
 }
 
 .box_index p a {
@@ -1068,10 +1002,10 @@ nav li {
 	font-family: 'Libre Baskerville', serif;
 	color: white;
 	display: block;
-	padding: 12.5px 1.25px;
-	margin-top: -14.5%;
-	width: 100%;
-	margin-left: -1%;
+	height: 41.8%;
+	margin-top: -12%;
+	margin-left:-1%;
+	width: 85%;
 }
 
 .index {
@@ -1092,19 +1026,104 @@ nav li {
 	color: black;
     float: left;
 	text-align: center;
-    width: 28%;
-	margin-left: -4%;
+    width: 30%;
+	margin-left: -6.5%;
 }
 
 nav .nav_link {
 	display: block;
 	position: relative;
-	left: 7px;
+	left: 11%;
 	top: 0;
-	right: 6px;
+	right: 0;
 }
 
+.hvr-shutter-out-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  background: rgba(0,0,0,0);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-shutter-out-horizontal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  align-content:center;
+  top: 0;
+  bottom: 0;
+  left: 9.6%;
+  right: 10%;
+  background: rgba(189, 32, 49, 1);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
 
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+	color: white;
+}
+
+.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+	.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 0;
+  left: -11%;
+  right: 0;
+  bottom: 0;
+  background: rgba(189, 32, 49, 1);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+	
+.heading {
+	font-family: 'Libre Baskerville', serif;
+	display: block;
+	text-align: center;
+	font-weight: 500;
+	line-height: 1.5em;
+}
 
 	
 .text {
@@ -1278,22 +1297,20 @@ nav .nav_link {
 	text-shadow: 1px 1px 8px #000;
 }
 
-
 .box_index {
-	width: 30%;
+	width: 28%;
 	background-color: #808080;
-	height: 6.15%;
+	height: 7.5%;
 	z-index: 100;
 	position: absolute;
-	top: 67%;
-	left: 63%;
+	top: 65%;
+	left: 62%;
 	opacity: 0.85;
 }
 
 .box_index p {
 	text-align:center;
-	font-size: 14px;
-	position:static;
+	font-size: 19px;
 }
 
 .box_index p a {
@@ -1301,12 +1318,12 @@ nav .nav_link {
 	font-family: 'Libre Baskerville', serif;
 	color: white;
 	display: block;
-	padding: 10px .4px;
-	margin-top: -14.5%;
-	width: 100%;
-	margin-left: -.7%;
-	position:static;
+	height: 45%;
+	margin-top: -12.85%;
+	margin-left:-12.277%;
+	width: 108.5%;
 }
+
 
 .index {
 	margin-top: 1%;
