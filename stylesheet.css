@@ -1,4 +1,4 @@
-/* General */
+ /* General */
 @charset "utf-8";
 * {
 	/*font-family: Raleway, sans-serif;*/
@@ -161,7 +161,7 @@ h1 a:hover {
 .box_index {
 	width: 25%;
 	background-color: #808080; 
-	height: 9.5%;
+	height: 10.5%;
 	z-index: 100;
 	position: absolute;
 	top: 50%;
@@ -171,8 +171,8 @@ h1 a:hover {
 
 .box_index p {
 	text-align:center;
-	font-size: 40px;
-	
+	font-size: 3em;
+	height: 90%;
 }
 
 .box_index p a {
@@ -180,9 +180,11 @@ h1 a:hover {
 	font-family: 'Libre Baskerville', serif;
 	color: white;
 	display: block;
-	padding: 8% 8%;
-	margin-top: -11.5%;
-	position: absolute;
+	margin-top: -12.5%;
+	margin-left:0%;
+	width: 100%;
+	padding: 6% 0%;
+	height: 65%;
 } 
 
 .index {
@@ -1018,7 +1020,7 @@ nav li {
 
 
 
-@media screen and (max-width:1000px) and (min-width: 100px) {
+@media screen and (max-width:999px) and (min-width: 100px) {
 	
 
 nav li {
@@ -1298,19 +1300,20 @@ nav .nav_link {
 }
 
 .box_index {
-	width: 28%;
+	width: 33%;
 	background-color: #808080;
-	height: 7.5%;
+	height: 6%;
 	z-index: 100;
 	position: absolute;
-	top: 65%;
-	left: 62%;
+	top: 68%;
+	left: 59%;
 	opacity: 0.85;
+	border: 1px solid red;
 }
 
 .box_index p {
 	text-align:center;
-	font-size: 19px;
+	font-size: .9em;
 }
 
 .box_index p a {
@@ -1318,10 +1321,10 @@ nav .nav_link {
 	font-family: 'Libre Baskerville', serif;
 	color: white;
 	display: block;
-	height: 45%;
-	margin-top: -12.85%;
-	margin-left:-12.277%;
-	width: 108.5%;
+	height: 50%;
+	margin-top: -12.5%;
+	margin-left:-12%;
+	width: 108%;
 }
 
 
