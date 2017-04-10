@@ -1065,10 +1065,10 @@ nav li {
 }	
 }
 
-
-
 @media screen and (max-width:999px) and (min-width: 100px) {
-	
+.button {
+	display: none;
+}
 
 nav li {
     border-right: 1px solid rgba(0,0,0,0.50);
@@ -1100,6 +1100,7 @@ nav .nav_link {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .hvr-shutter-out-horizontal:before {
   content: "";
   position: absolute;
