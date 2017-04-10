@@ -157,35 +157,66 @@ h1 a:hover {
 	text-shadow: 1px 1px 8px #000;
 }
 
-
-.box_index {
-	width: 25%;
-	background-color: #808080; 
-	height: 10.5%;
-	z-index: 100;
-	position: absolute;
-	top: 50%;
-	left: 64%;
-	opacity: 0.85;
-} 
-
-.box_index p {
-	text-align:center;
-	font-size: 3em;
-	height: 90%;
+button{
+  background: gray;
+  color:#fff;
+  border:none;
+  position:absolute;
+  height:9%;
+  font-size:2em;
+  font-family: 'Libre Baskerville', serif;
+  padding:0 1em;
+  cursor:pointer;
+  transition:800ms ease all;
+  -webkit-transition: 800ms ease all;
+    -moz-transition: 800ms ease all;
+    -o-transition: 800ms ease all;
+  outline:none;
+  bottom: 68%;
+ margin-left: 65%;
+ margin-bottom: -21%;
 }
 
-.box_index p a {
+ a {
 	text-decoration: none;
-	font-family: 'Libre Baskerville', serif;
-	color: white;
-	display: block;
-	margin-top: -12.5%;
-	margin-left:0%;
-	width: 100%;
-	padding: 6% 0%;
-	height: 65%;
-} 
+}
+
+button:hover{
+  background:rgba(189, 32, 49, 1);
+  color: white;
+  
+  
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: white;
+  transition:400ms ease all;
+    -webkit-transition: 400ms ease all;
+    -moz-transition: 400ms ease all;
+    -o-transition: 400ms ease all;
+	
+	
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+    -webkit-transition: 800ms ease all;
+    -moz-transition: 800ms ease all;
+    -o-transition: 800ms ease all;
+}
+
+
 
 .index {
 	margin-top: .75%;
@@ -447,6 +478,7 @@ footer {
 	position: relative;
 }
 
+
 .heading {
 	font-family: 'Libre Baskerville', serif;
 	display: block;
@@ -458,7 +490,7 @@ footer {
 .text {
 	display: block;
 	width: 60%;
-	text-indent: 30px;
+	text-indent: 24px;
 	line-height: 1.75em;
 	float: left;
 	border-radius: 15px;
@@ -484,7 +516,10 @@ footer {
 }
 
 .two > img {
-	margin-top: 150px;
+	margin-top: 190px;
+}
+.four > img {
+	margin-top: 120px;
 }
 
 /* Architecture */
@@ -544,7 +579,7 @@ footer {
 .h_text {
 	display: block;
 	width: 100%;
-	text-indent: 30px;
+	text-indent: 24px;
 	line-height: 1.75em;
 	float: left;
 	border-radius: 15px;
@@ -552,6 +587,7 @@ footer {
 	font-size: 1.185em;
 	text-align: justify;
 }
+
 
 .h_img {
 	display: block;
@@ -684,33 +720,44 @@ h2 {
   height: 18px;
   border-radius: 4px;
   animation: loading 1s ease-in-out infinite;
+   -webkit-animation: loading 1s ease-in-out infinite; 
 }
 .loading-bar:nth-child(1) {
   background-color: #3498db;
   animation-delay: 0;
+  -webkit-animation-delay: 0;
 }
 .loading-bar:nth-child(2) {
   background-color: #c0392b;
   animation-delay: 0.09s;
+  -webkit-animation-delay: 0.09s;
 }
 .loading-bar:nth-child(3) {
   background-color: #f1c40f;
   animation-delay: .18s;
+  -webkit-animation-delay: .18s;
 }
 .loading-bar:nth-child(4) {
   background-color: #27ae60;
   animation-delay: .27s;
+  -webkit-animation-delay: .27s;
 }
 
 @keyframes loading {
   0% {
     transform: scale(1);
+	 -ms-transform: transform: scale(1);
+    -webkit-transform: transform: scale(1);
   }
   20% {
     transform: scale(1, 2.2);
+    -ms-transform: transform: scale(1, 2.2);
+    -webkit-transform: transform: scale(1, 2.2);
   }
   40% {
     transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
   }
 }
 
@@ -828,7 +875,7 @@ nav li {
 .text {
 	display: block;
 	width: 100%;
-	text-indent: 30px;
+	text-indent: 24px;
 	line-height: 1.75em;
 	border-radius: 15px;
 	padding: 5px;
@@ -941,7 +988,7 @@ nav li {
 .h_text {
 	display: block;
 	width: 100%;
-	text-indent: 30px;
+	text-indent: 24px;
 	line-height: 1.75em;
 	float: left;
 	border-radius: 15px;
@@ -1131,7 +1178,7 @@ nav .nav_link {
 .text {
 	display: block;
 	width: 100%;
-	text-indent: 30px;
+	text-indent: 24px;
 	line-height: 1.75em;
 	border-radius: 15px;
 	padding: 5px;
@@ -1257,7 +1304,7 @@ nav .nav_link {
 .h_text {
 	display: block;
 	width: 100%;
-	text-indent: 30px;
+	text-indent: 24px;
 	line-height: 1.75em;
 	float: left;
 	border-radius: 15px;
