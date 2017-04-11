@@ -255,7 +255,7 @@ nav li {
 
 nav .last {
 	border-right: 0;
-}
+} 
 
 nav li a {
 	color: black;
@@ -1070,6 +1070,15 @@ nav li {
 	display: none;
 }
 
+.box {
+	width: 95%;
+	margin: auto;
+}
+
+.dd {
+	margin-left: -11%;
+}
+
 nav li {
     border-right: 1px solid rgba(0,0,0,0.50);
 	color: black;
@@ -1173,6 +1182,7 @@ nav .nav_link {
 	text-align: center;
 	font-weight: 500;
 	line-height: 1.5em;
+	margin-right: 5%;
 }
 
 	
@@ -1181,7 +1191,6 @@ nav .nav_link {
 	width: 100%;
 	text-indent: 24px;
 	line-height: 1.75em;
-	border-radius: 15px;
 	padding: 5px;
 	font-size: 1em;
 	text-align: left;
