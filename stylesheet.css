@@ -28,7 +28,9 @@ body {
 	height: 18%;
 	letter-spacing: 2px;
 	overflow: hidden;
+	/*
 	-webkit-mask-image: -webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	*/
 }
 
 
@@ -1079,8 +1081,8 @@ nav li {
 	color: black;
     float: left;
 	text-align: center;
-    width: 30%;
-	margin-left: -6.5%;
+    width: 32%;
+	margin-left: -8%;
 }
 
 nav .nav_link {
@@ -1112,7 +1114,7 @@ nav .nav_link {
   align-content:center;
   top: 0;
   bottom: 0;
-  left: 9.6%;
+  left: 13%;
   right: 10%;
   background: rgba(189, 32, 49, 1);
   -webkit-transform: scaleX(0);
@@ -1178,6 +1180,7 @@ nav .nav_link {
 	font-weight: 900;
 	line-height: 1.5em;
 	font-size: 1.8em;
+	margin-right: -2%;
 	}
 
 	
@@ -1191,6 +1194,9 @@ nav .nav_link {
 	text-align: left;
 }
 
+.box {
+	margin-left: 5%;
+}
 .img {
 	display: block;
 	width: 100%;
