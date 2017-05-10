@@ -629,7 +629,9 @@ footer {
 	height: 20%;
 	letter-spacing: 2px;
 	overflow: hidden;
+	/*
 	-webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	*/
 }
 
 .header_contact h1 {
@@ -680,7 +682,9 @@ footer {
 	height: 28%;
 	letter-spacing: 2px;
 	overflow: hidden;
+	/*
 	-webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	*/
 }
 
 .tsa_header h1 {
@@ -1179,7 +1183,7 @@ nav .nav_link {
 	text-align: center; 
 	font-weight: 900;
 	line-height: 1.5em;
-	font-size: 1.8em;
+	font-size: 1.75em;
 	margin-right: -2%;
 	}
 
@@ -1192,11 +1196,13 @@ nav .nav_link {
 	padding: 5px;
 	font-size: 1em;
 	text-align: left;
+	margin-left: -3%;
 }
 
-.box {
-	margin-left: 5%;
+.r_text {
+	margin-left: -3.5%;
 }
+
 .img {
 	display: block;
 	width: 100%;
@@ -1235,7 +1241,9 @@ nav .nav_link {
 	height: 20%;
 	letter-spacing: 2px;
 	overflow: hidden;
+	/*
 	-webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	*/
 	
 }
 	
@@ -1322,6 +1330,7 @@ nav .nav_link {
 	padding: 5px;
 	font-size: 1em;
 	text-align: left;
+	margin-left: -3%;
 }
 
 .box_index_title {
